@@ -35,7 +35,7 @@ REM ============================================================
 echo.
 echo [^>] Detection du lecteur courant...
 
-set CURRENT_DRIVE=%cd:~0,3%test_ERR\
+set CURRENT_DRIVE=%cd:~0,3%
 
 echo     [OK] Lecteur courant : %CURRENT_DRIVE%
 
