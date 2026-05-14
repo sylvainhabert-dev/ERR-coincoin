@@ -1,0 +1,4 @@
+<TextureAtlas imagePath="SB_Operating_1.png">
+	<SubTexture name="MENU_XboxOne.png" x="0" y="0" width="878" height="476" half="0"/>
+</TextureAtlas>
+
