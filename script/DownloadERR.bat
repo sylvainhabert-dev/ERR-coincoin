@@ -5,11 +5,19 @@ REM ============================================================
 REM CONFIGURATION
 REM ============================================================
 
-REM URL du ZIP
-set "ZIP_URL=https://github.com/sylvainhabert-dev/ERR-coincoin/releases/latest/download/ERR.zip"
+REM ============================================================
+REM CONFIGURATION ZIPS
+REM ============================================================
 
-REM fichier ZIP temporaire
-set "ZIP_FILE=%TEMP%\ERR.zip"
+set "BASE_URL=https://github.com/sylvainhabert-dev/ERR-coincoin/releases/latest/download"
+
+set "ZIP1_URL=%BASE_URL%/ERR1.zip"
+set "ZIP2_URL=%BASE_URL%/ERR2.zip"
+set "ZIP3_URL=%BASE_URL%/ERR3.zip"
+
+set "ZIP1_FILE=%TEMP%\ERR1.zip"
+set "ZIP2_FILE=%TEMP%\ERR2.zip"
+set "ZIP3_FILE=%TEMP%\ERR3.zip"
 
 REM Nom repertoire ERR
 set "ERR_PATH=ERR"
@@ -27,7 +35,7 @@ REM ============================================================
 echo.
 echo [^>] Detection du lecteur courant...
 
-set CURRENT_DRIVE=%cd:~0,3%
+set CURRENT_DRIVE=%cd:~0,3%test_ERR\
 
 echo     [OK] Lecteur courant : %CURRENT_DRIVE%
 
@@ -84,50 +92,60 @@ if exist "%ERR_COMPLETE_FILE%" (
 )
 
 REM ─────────────────────────────────────────────────────────────
-REM Téléchargement
+REM Téléchargement des archives
 REM ─────────────────────────────────────────────────────────────
 
 echo.
-echo [^>] Telechargement de l'archive...
+echo [^>] Telechargement des archives...
 
-curl -L "%ZIP_URL%" -o "%ZIP_FILE%"
-
+curl -L "%ZIP1_URL%" -o "%ZIP1_FILE%"
 if errorlevel 1 (
-    echo     [ERREUR] Impossible de telecharger l'archive
+    echo [ERREUR] Impossible de telecharger ERR1.zip
     exit /b 1
 )
 
-if not exist "%ZIP_FILE%" (
-    echo [ERREUR] ZIP non telecharge
+curl -L "%ZIP2_URL%" -o "%ZIP2_FILE%"
+if errorlevel 1 (
+    echo [ERREUR] Impossible de telecharger ERR2.zip
     exit /b 1
 )
 
-for %%A in ("%ZIP_FILE%") do set SIZE=%%~zA
-
-echo Taille archive : %SIZE% bytes
-
-if %SIZE% LSS 100000 (
-    echo [ERREUR] Archive invalide ou incomplete
+curl -L "%ZIP3_URL%" -o "%ZIP3_FILE%"
+if errorlevel 1 (
+    echo [ERREUR] Impossible de telecharger ERR3.zip
     exit /b 1
 )
 
-echo     [OK] Archive telechargee : %ZIP_FILE%
+echo     [OK] Archives telechargees
 
 REM ─────────────────────────────────────────────────────────────
 REM Décompression
 REM ─────────────────────────────────────────────────────────────
 
 echo.
-echo [^>] Decompression vers %CURRENT_DRIVE%
+echo [^>] Decompression des archives...
 
-tar -xf "%ZIP_FILE%" -C "%CURRENT_DRIVE%"
-
+tar -xf "%ZIP1_FILE%" -C "%CURRENT_DRIVE%"
 if errorlevel 1 (
-    echo     [ERREUR] Echec de la decompression
+    echo [ERREUR] Echec decompression ERR1.zip
     exit /b 1
 )
 
-del "%ZIP_FILE%" >nul 2>&1
+tar -xf "%ZIP2_FILE%" -C "%CURRENT_DRIVE%"
+if errorlevel 1 (
+    echo [ERREUR] Echec decompression ERR2.zip
+    exit /b 1
+)
+
+tar -xf "%ZIP3_FILE%" -C "%CURRENT_DRIVE%"
+if errorlevel 1 (
+    echo [ERREUR] Echec decompression ERR3.zip
+    exit /b 1
+)
+
+del "%ZIP1_FILE%" >nul 2>&1
+del "%ZIP2_FILE%" >nul 2>&1
+del "%ZIP3_FILE%" >nul 2>&1
 
 echo     [OK] Decompression terminee
 

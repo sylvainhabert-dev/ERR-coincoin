@@ -20,7 +20,40 @@ jobs:
       # Création des ZIPs
       - name: Create split ZIP archives
         run: |
-          mkdir artifacts
+          mkdir -p artifacts \
+            mod/.output \
+            mod/map/m12/m12_07_00_00 \
+            mod/map/m20/m20_00_00_00 \
+            mod/map/m21/m21_00_00_00 \
+            mod/map/m21/m21_01_00_00 \
+            mod/map/m28/m28_00_00_00 \
+            mod/map/m30/m30_00_00_00 \
+            mod/map/m30/m30_02_00_00 \
+            mod/map/m30/m30_05_00_00 \
+            mod/map/m30/m30_06_00_00 \
+            mod/map/m30/m30_07_00_00 \
+            mod/map/m30/m30_10_00_00 \
+            mod/map/m30/m30_12_00_00 \
+            mod/map/m30/m30_14_00_00 \
+            mod/map/m30/m30_17_00_00 \
+            mod/map/m30/m30_20_00_00 \
+            mod/map/m31/m31_01_00_00 \
+            mod/map/m31/m31_10_00_00 \
+            mod/map/m31/m31_11_00_00 \
+            mod/map/m31/m31_15_00_00 \
+            mod/map/m31/m31_19_00_00 \
+            mod/map/m31/m31_21_00_00 \
+            mod/map/m32/m32_00_00_00 \
+            mod/map/m32/m32_02_00_00 \
+            mod/map/m32/m32_07_00_00 \
+            mod/map/m32/m32_08_00_00 \
+            mod/map/m40/m40_00_00_00 \
+            mod/map/m40/m40_01_00_00 \
+            mod/map/m41/m41_00_00_00 \
+            mod/map/m41/m41_01_00_00 \
+            mod/map/m41/m41_02_00_00 \
+            mod/map/m43/m43_01_00_00 \
+            mod/map/m60/m60_51_57_00
 
           cd ERR
 
