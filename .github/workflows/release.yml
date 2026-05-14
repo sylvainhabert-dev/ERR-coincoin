@@ -1,0 +1,35 @@
+name: Auto Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      # récupération du dépôt
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # création du ZIP
+      - name: Create ZIP archive
+        run: |
+          zip -r ERR.zip ERR
+
+      # génération version unique
+      - name: Generate version
+        id: version
+        run: echo "VERSION=v$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+
+      # création release + upload ZIP
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.VERSION }}
+          name: Release ${{ steps.version.outputs.VERSION }}
+          files: ERR.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
