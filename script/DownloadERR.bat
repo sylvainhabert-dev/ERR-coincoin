@@ -23,10 +23,10 @@ REM Nom repertoire ERR
 set "ERR_PATH=ERR"
 
 REM Chemin du BAT apres extraction
-set BAT_RELATIVE_PATH=%ERR_PATH%\2 - Launch ELDEN RING Reforged - Offline or Seamless (Windows).BAT
+set "BAT_RELATIVE_PATH=%ERR_PATH%\2 - Launch ELDEN RING Reforged - Offline or Seamless (Windows).BAT"
 
 REM Nom du raccourci
-set SHORTCUT_NAME=EldenRing Reforged
+set "SHORTCUT_NAME=EldenRing Reforged"
 
 REM ============================================================
 REM FIN CONFIG
@@ -125,19 +125,21 @@ REM ─────────────────────────�
 echo.
 echo [^>] Decompression des archives...
 
-tar -xf "%ZIP1_FILE%" -C "%CURRENT_DRIVE%"
+mkdir "%ERR_COMPLETE_FILE%"
+
+tar -xf "%ZIP1_FILE%" -C "%ERR_COMPLETE_FILE%"
 if errorlevel 1 (
     echo [ERREUR] Echec decompression ERR1.zip
     exit /b 1
 )
 
-tar -xf "%ZIP2_FILE%" -C "%CURRENT_DRIVE%"
+tar -xf "%ZIP2_FILE%" -C "%ERR_COMPLETE_FILE%"
 if errorlevel 1 (
     echo [ERREUR] Echec decompression ERR2.zip
     exit /b 1
 )
 
-tar -xf "%ZIP3_FILE%" -C "%CURRENT_DRIVE%"
+tar -xf "%ZIP3_FILE%" -C "%ERR_COMPLETE_FILE%"
 if errorlevel 1 (
     echo [ERREUR] Echec decompression ERR3.zip
     exit /b 1
@@ -156,11 +158,15 @@ REM ─────────────────────────�
 echo.
 echo [^>] Recherche du fichier BAT...
 
-set BAT_FULL_PATH=%CURRENT_DRIVE%%BAT_RELATIVE_PATH%
+set "BAT_FULL_PATH=%CURRENT_DRIVE%%BAT_RELATIVE_PATH%"
 
-if not exist "%BAT_FULL_PATH%" (
+echo BAT_FULL_PATH=%BAT_FULL_PATH%
+
+setlocal EnableDelayedExpansion
+
+if not exist "!BAT_FULL_PATH!" (
     echo     [ERREUR] Fichier introuvable :
-    echo     %BAT_FULL_PATH%
+    echo     !BAT_FULL_PATH!
     exit /b 1
 )
 
@@ -176,11 +182,15 @@ echo [^>] Creation du raccourci Bureau...
 
 set SHORTCUT_PATH=%USERPROFILE%\Desktop\%SHORTCUT_NAME%.lnk
 
+if exist "%SHORTCUT_PATH%" (
+    del "%SHORTCUT_PATH%"
+)
+
 powershell -Command ^
 "$WshShell = New-Object -comObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('%SHORTCUT_PATH%'); ^
 $Shortcut.TargetPath = '%BAT_FULL_PATH%'; ^
-$Shortcut.WorkingDirectory = Split-Path '%BAT_FULL_PATH%'; ^
+$Shortcut.WorkingDirectory = Split-Path '%ERR_COMPLETE_FILE%'; ^
 $Shortcut.Description = '%SHORTCUT_NAME%'; ^
 $Shortcut.WindowStyle = 1; ^
 $Shortcut.Save()"
@@ -201,7 +211,7 @@ echo.
 echo ===============================================
 echo  Deploiement termine avec succes !
 echo ===============================================
-echo  Archive decompressee dans : %CURRENT_DRIVE%
+echo  Archive decompressee dans : %ERR_COMPLETE_FILE%
 echo  Raccourci Bureau          : %SHORTCUT_PATH%
 echo ===============================================
 echo.
