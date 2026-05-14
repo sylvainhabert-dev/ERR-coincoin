@@ -11,24 +11,54 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+
     steps:
+      # Checkout
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create ZIP archive
+      # Création des ZIPs
+      - name: Create split ZIP archives
         run: |
-          cd ERR
-          zip -r ../ERR.zip * -q
+          mkdir artifacts
 
+          cd ERR
+
+          zip -r ../artifacts/ERR1.zip . \
+            -x "mod/*"
+
+          zip -r ../artifacts/ERR2.zip \
+            mod/.output \
+            mod/action \
+            mod/asset \
+            mod/chr \
+            mod/cutscene \
+            mod/event \
+            mod/map \
+            mod/material 
+
+          zip -r ../artifacts/ERR3.zip \
+            mod/menu \
+            mod/msg \
+            mod/other \
+            mod/param \
+            mod/parts \
+            mod/script \
+            mod/sd \
+            mod/sfx \
+            mod/regulation.bin
+
+      # Génération version
       - name: Generate version
         id: version
         run: echo "VERSION=v$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
 
+      # Création release
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.VERSION }}
           name: Release ${{ steps.version.outputs.VERSION }}
-          files: ERR.zip
+          files: artifacts/*.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
