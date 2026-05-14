@@ -16,7 +16,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create archive
-        run: tar -C ERR -czf ERR.zip .
+        cd ERR
+        zip -r ../ERR.zip * -q
 
       - name: Generate version
         id: version
