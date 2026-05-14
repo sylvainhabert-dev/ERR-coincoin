@@ -15,9 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create archive
-        cd ERR
-        zip -r ../ERR.zip * -q
+      - name: Create ZIP archive
+        run: |
+          cd ERR
+          zip -r ../ERR.zip * -q
 
       - name: Generate version
         id: version
