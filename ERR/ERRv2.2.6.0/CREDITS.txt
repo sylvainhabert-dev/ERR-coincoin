@@ -1,0 +1,104 @@
+===================================================================
+ELDEN RING Reforged development team
+===================================================================
+
+- Kirnifr: Project director, lead developer.
+- ivi: Co-director, programmer, wearer of many hats.
+- poeconcept: Principal concept artist.
+- hanalove: Principal asset artist.
+- Cavou: Map editor, quality assurance.
+- Rayan: VFX editor and 3D artist.
+- Pina Colada: Spell designer, icon artist, VFX editor.
+- cultist: 3D model and texture artist.
+- remu: Icon artist.
+- Tlarok: Cloth physics specialist.
+
+Support ERR:
+
+https://ko-fi.com/kirnifr
+
+https://ko-fi.com/ividyon
+
+===================================================================
+Contribution credits
+===================================================================
+Our thanks go out to...
+
+===================================================================
+Tools
+===================================================================
+- TKGP for Yabber and UXM.
+- Meowmaritus for DS Anim Studio and SoulsAssetPipeline.
+- philiquaz for DS Param Studio and DS Map Studio.
+- chainfailure for Waygate, fromsoftware-rs, and a great amount of support.
+- sfix for me3, Linux testing and a great amount of support.
+- Katalash for DSLuaDecompiler and DSMapStudio.
+- AinTunez, HotPocketRemix for DarkScript3.
+- The12thAvenger for HKLib, FbxImporter, and help on various Havok and programming topics.
+- Vawser for Smithbox, decompiled HKS, and the Affinity making tool in Yapped Rune Bear.
+- thefifthmatt for DarkScript3, MattScript and ESDLang.
+- Dasaav for fromsoftware-rs, me3, the stutter fix and much support.
+- Axi for Waygate, fromsoftware-rs and much support.
+
+===================================================================
+Bundled DLL mods
+===================================================================
+- Tom Clark for the Elden Ring Weapon Calculator, Transmogrify Armor DLL mod, and Material Param Exposer DLL mod.
+- chainfailure for the Waygate, Alt Saves and Intro Skip DLL mods.
+- TechieW for several DLL mods like UnlockTheFps and AdjustTheFov.
+- Nordgaren for ErdTools and fixes to TechieW's mods.
+- Axi for Waygate.
+
+===================================================================
+Contributions
+===================================================================
+- Salvador for the Prodigious Crown Pendant icon.
+- WitWoe for the Makar's Ceremonial Cleaver model.
+- Torbi for the interface graphics such as the Site of Grace, the stats/attributes, and the new clock.
+- Rem for the new Perfume icons and the icon for Morion's Doom.
+- abyss_flowers for the Ranni, Ghostflame and St. Trina sorcery sigils.
+- atomicjest for the new map markeraddin icons, and art for the Shadowed Curio system.
+- Ronnie B. for the flipped Lucerne model.
+- Dziggy for the GFX UI layout files from Detailed Item Descriptions.
+- Linktothekraken for knowledge on HUD edits. See Compact HUD Tweaks
+- losh11 for PS4 and PS5 UI prompts.
+- ZeusOfTheCrows for Switch Pro Controller UI prompts.
+- Cosmogony for the subtle Rellana's Armor chestpiece.
+- Bruhballs for a large number of ERR's spells and their icons.
+- AshenOne for figuring out and helping to implement the level cap.
+- El Fonz0 for figuring out the Rotten Crystal Staff scarlet rot buildup, and mirroring player animations.
+- Cleverraptor6 for porting the DS3 Katana Unsheathe parry animation and various help.
+- Tigertom for work on the new Perfumes and various new spells.
+- nmsl2018 for the bloodborne dodge animation retarget.
+- Blubber for his animation repository.
+- H A L C Y O N for the idea of using WetAspectParam for an armor dye system.
+- Lord Exelot for the 1.12 community HKS update.
+- rossano96 for help with color-matching Limgrave LOD textures.
+- Igor for the Putrescent Bonemass's jump animation.
+- Shiki for the plunge attack critical animation for the Putrescent Bonemass and enemy grab animations for the Royal Guardian.
+- BigGreenGayDad, DOTS, Ezaol, Loki, Mohl, Render, rooksby, Spiswel, Teacyn, Throngler for footage for the 2.0 trailer.
+- antro97, Avionette Gaming, Ballsy, BigGreenGayDad, Combine, DOTS, erin, Ezaol, Fly, Gacsam, Loki, Mohl, Noxbun,
+  remu, Render, rooksby, Ser Aaron, Spiswel, Teacyn, Throngler, Zath for testing the 2.0 release.
+- Zenithbemusement for the fix to the Staff of the Great Beyond spell emitter point.
+- Raster for fixing the collision of the colosseum interiors.
+- WrenRecon for various equipment pieces such as the Operatic Headdress.
+
+===================================================================
+Translations
+===================================================================
+- Dark Listener, TruthanTV: German translation.
+- Буханка_Глеба, Isolated Mind, Raiden: Russian translation.
+- From Software Minor Gallery, 도바킨, HWASAL: Korean translation.
+- wings, Luwae, Agito L'agité, cust, Firefloc, Freenix, Le Gourdiflet, Neanesis, Uncle Psy, Spiswel, Ravioli: French translation.
+- niscolas, Michelle Castro, Sobolewski, Alzh: Portuguese translation.
+- Furisuke, takasago: Japanese translation.
+- Volk, kemkera: Italian translation.
+- pellorao: Simplified Chinese translation.
+- BazAKu: Thai translation.
+- Po: Traditional Chinese translation.
+
+===================================================================
+Resources
+===================================================================
+- Brusheezy (https://www.brusheezy.com): Brushes used for various assets
+- Solar System Scope: Textures used for the updated moon model
