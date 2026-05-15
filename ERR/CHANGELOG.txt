@@ -1,6 +1,99 @@
+Version 2.2.7.3
+
+Decreased skill stamina costs by 10% and spell stamina costs by 5%.
+
+Dodging after recovering from being low on stamina will now cost significantly less stamina for a short time.
+
+Hitting 0 stamina can now no longer trigger after certain perfect deflects or during throws.
+
+Night's Cavalry will now incur a 20 second cooldown on re-summoning their steed when becoming dismounted.
+
+Fated weapons now have the Legendary rarity.
+
+Version 2.2.7.2
+
+Added restrictions to the type of consumables invaders (and redeemers) can use. Invaders under level 100 will no longer be able to use most consumable buffs, while invaders under level 200 will no longer be able to use buffing consumables from the DLC.
+
+Increased the solo invasion cooldown for players under level 40.
+
+Increased the amount of stats gained by low level players in invasions.
+
+Increased the flask downscaling for guests if its reinforced too high from their real level.
+
+Decreased the Bloody Finger Severer timer from 10 minutes to 8 minutes.
+
+Removed the ability to parry the 2H Gracebound Greataxe, but nerfed the startup frames of the hyperarmor on light attacks and nerfed the startup speed of the running heavy attacks.
+
+Updated the icons for Ancient Tracer, Dragonrend, Grasp of Eochaid, Retch Gore, Scornful Gaze, and Transmigration Call.
+
+Fixed the Phantom Redeemer's Finger VFX not being green.
+
+Fixed some of the crystals in the Ainsel River crystal puzzles being too small.
+
+Fixed some explosive barrels and other assets spawning in broken.
+
+Fixed exploits with the Lively enkindled affix.
+
+Version 2.2.7.1
+
+Increased Balanced Frame back and side roll movement distance by 5%.
+
+Decreased the Golden Crux skill grab hitbox size versus players.
+
+Fixed thrusting sword R2s costing less stamina than even dagger R2s.
+
+Fixed the Drowsy status effect negatively affecting stamina regen too much while in the 0 stamina penalty state.
+
+Fixed the 0 stamina penalty state being a bit too punishing in general.
+
+Fixed the Residual Ashes menu requiring the Spellsmith's Etching Tool to be purchased.
+
+Version 2.2.7.0
+
+The coffin cemeteries strewn about the Lands Between will now have a teeny tiny (~0.7%) chance to reward a Fated weapon with a 3-star Enkindled Ash instead of a Golden Rune. This adds a little bit of excitement and anticipation to encountering these set pieces.
+
+The loot drops of these cemeteries have been reset once for all existing save files, happy graverobbing!
+
+Increased hyperarmor's flat poise per weapon type from 1/10/20/40 to 10/20/40/60.
+
+Added guarding stability as a stat that is affected by weight, having higher equip load will now provide more stability when guarding.
+
+Nerfed staminamaxxing:
+- Decreased maximum Stamina from Endurance at 80 to 99 Endurance from 1900->2200 to 1800->2000.
+- Decreased the effects of maximum stamina boosting effects like the Viridianspill Crystal Tear, most of these are nerfed closer to their vanilla values.
+- Increased the stamina cost of light R1s, running attacks, and duck attacks by a flat +10 or +20 particularly on light weapons. Dual wielding and multi-hit attacks not affected.
+- Decreased the perfect action stamina cost reduction from 20% to 12%.
+
+Adjusted the damage of nearly all weapons to ensure weapons with higher stamina multipliers have more AR and weapons with lower stamina multipliers have less AR. Most high stamina consumption weapons have received a damage boost.
+
+Updated the Great-Serpent Hunt to retain some of its visual effects even when outside of the Rykard fight, and increased its hitbox size to match.
+
+Further increased the speed of the Gracebound Greataxe R2s.
+
+Doubled the amount of Beasthood built by melee attacks for the Fortune of the Beasts.
+
+Increased the size of the platform in the final Flamelost Knight fight from a scale of 3.75x to 3.85x
+
+Removed the followup inputs from the Ghostflame Call Ash of War due to it being identical to Ghostflame Ignition. The hitbox size of the initial attack has been greatly increased.
+
+Fixed a vanilla issue with the Crimson and Navy Hoods (and ERR's Beryl Hood) where part of the shawl would be erroneously displayed as the "backface" texture instead of the proper pattern it's supposed to have.
+
+Fixed an oooold UI issue where new Reforged affinities were not correctly displayed in some shop windows or the storage box.
+
+Fixed many instances of stamina consumption differences between the same left and right hand attacks.
+
+Fixed Glintstone Scrap items not counting as elemental stones for damage boosting effects.
+
+Fixed the Drowsy effect sometimes not being cured.
+
+Nerfed in PvP:
+Fixes Axes and Hammers doing too much damage.
+Some attributes of Heavy Thrusting Swords.
+Decreased damage of Light Greatsword powerstance a bit.
+
 Version 2.2.6.0
 
-Added Residual Ashes. When purchasing an Enkindled Ash with Lost Ashes of War you will now give one Residual Ash as well. Residual Ashes can be traded for any 3 star Enkindled Ash once 100 of them are obtained.
+Added Residual Ashes. When purchasing an Enkindled Ash with Lost Ashes of War you will now get one Residual Ash as well. Residual Ashes can be traded for any 3 star Enkindled Ash once 100 of them are obtained.
 
 Added the ability to apply Body Hues to Torrent. Torrent can now be found in the Gilded Court.
 
