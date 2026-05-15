@@ -21,7 +21,7 @@ set -euo pipefail
 # CONFIGURATION
 # ------------------------------------------------------------
 
-ZIP1="E:/ERRv2.2.6.0-541-2-2-6-0-1778130281.zip"
+ZIP1="E:/ERRv2.2.7.3-541-2-2-7-3-1778726116.zip"
 ZIP2="E:/Seamless Co-op v1.9.9-510-1-9-9-1776812412.zip"
 
 GIT_PATH="E:/ERR-coincoin"
