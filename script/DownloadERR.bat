@@ -40,30 +40,6 @@ set CURRENT_DRIVE=%cd:~0,3%
 echo     [OK] Lecteur courant : %CURRENT_DRIVE%
 
 REM ─────────────────────────────────────────────────────────────
-REM Backup ancien ZIP si deja present
-REM ─────────────────────────────────────────────────────────────
-
-set "BACKUP_FILE=%ZIP_FILE%.bak"
-
-if exist "%ZIP_FILE%" (
-
-    echo.
-    echo [^>] Ancien ZIP detecte, creation du backup...
-
-    copy /Y "%ZIP_FILE%" "%BACKUP_FILE%" >nul
-
-    if errorlevel 1 (
-        echo [ERREUR] Impossible de creer le backup
-        exit /b 1
-    )
-
-    echo     [OK] Backup cree :
-    echo     %BACKUP_FILE%
-
-    del /F /Q "%ZIP_FILE%" >nul 2>&1
-)
-
-REM ─────────────────────────────────────────────────────────────
 REM Backup ancien telechargement si deja present
 REM ─────────────────────────────────────────────────────────────
 
@@ -190,7 +166,7 @@ powershell -Command ^
 "$WshShell = New-Object -comObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('%SHORTCUT_PATH%'); ^
 $Shortcut.TargetPath = '%BAT_FULL_PATH%'; ^
-$Shortcut.WorkingDirectory = Split-Path '%ERR_COMPLETE_FILE%'; ^
+$Shortcut.WorkingDirectory = '%ERR_COMPLETE_FILE%'; ^
 $Shortcut.Description = '%SHORTCUT_NAME%'; ^
 $Shortcut.WindowStyle = 1; ^
 $Shortcut.Save()"
