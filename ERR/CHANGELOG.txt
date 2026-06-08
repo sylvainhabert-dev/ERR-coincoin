@@ -1,3 +1,197 @@
+Version 2.2.9.6
+
+Fixed an issue where many effects depending on invulnerability frames being either present or absent would not function properly.
+
+Version 2.2.9.5
+
+Fixed a major breaking issue where the Reforged multiplayer server could not be connected to.
+
+Fixed a launcher issue where it would detect duplicate installs based on capitalization or symlinks, particularly on Linux.
+
+Fixed a launcher issue where addons containing "regulation.bin" would just cause a poorly readable error instead of providing a reason for why they were rejected.
+
+Version 2.2.9.4B
+
+Updated the mod to launch with ELDEN RING App Ver. 1.16.2.
+
+Version 2.2.9.4A
+
+Added a summoning pool for Caelid Tower Basement, for the Godskin Apostle fight.
+
+Re-enabled the Mohgwyn Palace summoning pools to accept "Far" signs. Cooperators are no longer affected by Nihil.
+
+Fixed a critical crash issue on Japanese installations.
+
+Fixed a launcher issue where a differing version number would prevent launch even if the files all match the expected values.
+
+Version 2.2.9.4
+
+Fixed the French translations not existing.
+
+Fixed an issue with the Artist's Shack.
+
+Version 2.2.9.3
+
+Added 8 additional Trick-Mirrors to the multiplayer shop. These will cost 50 tokens each, of a specific type.
+
+Hero's Coin:
+- Puppet's Trick-Mirror
+- Shadow's Trick-Mirror
+Cooperator's Coin:
+- White Phantom's Trick-Mirror
+- Spirit Ash's Trick-Mirror
+Invader's Coin:
+- Mad Phantom's Trick-Mirror
+- Rancorous Spirit's Trick-Mirror
+Redeemer's Coin:
+- Hunter's Trick-Mirror
+- Mausoleum Knight's Trick-Mirror
+
+Red summon signs can now be touched without using Rune Arcs.
+
+Nudged the dialogue caption down so that it doesn't overlap with the boss bar.
+
+Fixed the Royal Revenant dropping a dummy item.
+
+Fixed issues where players could play speed-altering modifier modes online.
+
+Fixed the hitboxes of the left-handed Gracebound Claws not working.
+
+Fixed the Glyph of Suppression missing as a Mystic Ash.
+
+Potentially improved Poison and Rot exultation reliability in multiplayer.
+
+Version 2.2.9.2
+
+Summon signs are now be visible by default, but continue to be un-interactive unless a Rune Arc is used. This hopefully encourages more online play by tempting hosts with the promise of jolly cooperation.
+
+Added a bit of hue and contrast to the resource bars, to make them a pop a little more.
+
+Changed the message that appears when enemy camps force you off of Torrent, now that it is technically feasible to do so.
+
+Fixed an issue where the Discord rich presence would show "$1" instead of your character level.
+
+Fixed an issue where the Discord rich presence would display "current weapon" trivia about the left hand incorrectly.
+
+Fixed Shadow Strays not existing in the Codex.
+
+Fixed the button for the final Lake of Rot platform being hard to activate.
+
+Reduced cost of invader shop items now that invasions are more balanced.
+
+Added a 30 second timer before a Redeemer can be summoned.
+
+Version 2.2.9.1
+
+Fixed a critical crash issue on Linux where players were not able to connect to the online servers at all.
+
+Fixed gradual performance degradation related to being in areas with the new Harvester enemies, specifically in the Ainsel River and Roundtable Hold due to a testing enemy.
+
+The multiplayer password, so easily forgotten, will now be reset upon entering a loading screen, to perhaps reclaim some MP activity from accidental passwords.
+
+Some Discord rich presence changes:
+  - Added some configurable settings:
+     - On by default: Show combat status, show trivia, show deaths
+     - Off by default: Include difficulty trivia, show character name
+  - The texts are now taken from game files, meaning they can be localized by our translation volunteers.
+  - Fixed an issue with the Current Weapon trivia.
+
+Fixed the Immortal Coil off-hand heavy attacks not being mirrored.
+
+Fixed a launcher bug where save file backups would be named in 12h format instead of 24h.
+
+Version 2.2.9.0
+
+Added a new legendary armament, the Immortal Coil. A crown jewel of Enir-Ilim, this dual weapon catalyst thrusting sword may be found at the Spiral Rise. Its unique skill Empyrean Piercer boosts spell power for a time after striking a foe.
+
+Added Discord Rich Presence support to ELDEN RING Reforged. Various small tidbits and whimsical trivia from your current session/playthrough will now be displayed on your Discord status if you have activity tracking enabled on Discord. Remember that activity tracking can be finely controlled on your servers. Can you find all the silly interactions?
+
+Added a settings menu in the Reforged Launcher. When first launching the mod, you will enter this menu automatically to perform initial setup. Further customization can then be done with the dedicated Settings shortcuts in the mod folder. The Discord Rich Presence feature can be toggled via this settings menu.
+
+Increased colossal weapon accumulation buildup.
+
+Replaced the Golden Seed starting gift with some Withered Twigs.
+
+Removed the ability to get invaded when near a Site of Grace, preventing most situations where players would get invaded while AFK.
+
+Moved some online sanity checks (such as framerate) to occur in single-player, rather than when an MP session has begun, to hopefully counteract connection failures that occur when those checks kick in.
+
+Random balance changes:
+- Spellsword unboosted damage penalty decreased from 0.9x to 0.92x
+- Sword of Night and Flame spell boost decreased from 1.15x to 1.1x (melee boost is still 1.15x)
+
+Nerfed in PvP:
+- Sleep buildup reduced from 1.5x less to 1.6x less
+- Vulgar Militia Chain Sickle poison pot stagger level and damage
+
+Fixed the Starscourge Radahn boss fight not properly occuring during night-time.
+
+Fixed the Gracebound Greataxe first 2H R1 speed being too fast.
+
+Fixed the duck attacks of the Gracebound Cane Sword not moving far enough to reach after performing feint attacks.
+
+Fixed the Smithscript Dagger feint attacks being way stronger than intended and a vanilla issue where the Godskin Stitcher and Great Epee feints were weaker than other Heavy Thrusting Sword feints.
+
+Updated the visuals for the status bar icon borders.
+
+Version 2.2.8.2
+
+Fixed major issues where the invasion cooldown wouldn't apply in some situations.
+
+Updated mod translations.
+
+Version 2.2.8.1
+
+Stamina changes:
+- Pickled Turtle Neck item duration: 100 -> 120
+- Well-Pickled Turtle Neck item duration: 50 -> 60
+- Sentinel fortune stamina regen: -30 -> - 20
+- Warmaster fortune stamina cost: 1.15x -> 1.1x
+- Crucible fortune stamina: -60/+120 -> -50/+100
+- Added diminishing returns to stamina regeneration increasing buffs while increasing the strength of the buffs by about 25%. This will increase stamina regeneration compared to before when using 1-2 stamina regeneration buffs without making it increase too much when applying more than that.
+
+Decreased Scarlet Rot buildup in PvP.
+
+Slightly decreased the stat boosts received by lower level hosts in invasions now that Redeemers are much less risky to have summoned.
+
+Fixed the Gracebound Dagger's first 1H R1 being too fast.
+
+Fixed some instances where the invasion cooldown wouldn't apply.
+
+Potentially fixed Fulghor's boss arena not being a viable multiplayer area.
+
+Version 2.2.8.0
+
+Added a new major enemy type, the Harvester of Rot. These mindless, many-limbed creatures dwell in pools of scarlet rot, awaiting prey to massacre, and round out the Scarlet Rot faction lineup. Beware of their flailing assaults!
+
+Slightly decreased the strength of some faster catalyst R2 attacks and slightly increased the strength of some of the slower catalyst R2 attacks.
+
+Slightly decreased the stamina cost of guard counters on heavier weapons.
+
+Adjusted the Redeemer system so that having a Redeemer probably won't allow for a second invader to be possible, but slightly decreased the stats of Redeemers.
+
+Increased the amount of time poise is disabled after being staggered from 10 frames to 12 frames.
+
+Decreased the power of speed altering buffs in PvP from 0.5x usual effectiveness to 0.4x, and increased the the tailwind mechanic speed change from +7.5% movement speed to +8%.
+
+Decreased the Phantom Finger item count back to 3.
+
+Added an 8 second cooldown when using Bloody Finger invasion items to stop players from spamming the server with invasion requests.
+
+Added Summoning Pools to the following locations:
+- Fulghor, Champion of Rauh
+- Ashen Leyndell Fellthorn Spirit
+- Liurnia East Gate Bridge Trestle
+- Moonlight Altar
+- Lux Ruins
+- Castle Ensis Checkpoint
+
+Fixed thousands more asset placement, lighting errors, stuck spots, and other polish across Scadu Altus, Limgrave, Liurnia, Altus, Ainsel River, Stormveil Castle, Raya Lucaria, Volcano Manor, Belurat, and much more.
+
+Potentially fixed the crash issue with Serpentspawn in the Rancorous Duelist's arena in the Serpentine Depths.
+
+Potentially fixed headshots staggering through i-frames in PvP.
+
 Version 2.2.7.3
 
 Decreased skill stamina costs by 10% and spell stamina costs by 5%.

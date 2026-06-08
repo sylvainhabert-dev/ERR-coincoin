@@ -32,30 +32,9 @@ After this initial setup, you will be able to easily run the mod.
 7) Add your preferred launcher .sh script as a Non-Steam Game Shortcut in Steam.
    Do NOT specify any Proton compatibility tools for this shortcut.
 
-8) In the right-click properties of your new shortcut, wrap the "Target" path in double quotes.
-
-Example:
-
-    /home/myname/ERR/3 - Launch ELDEN RING Reforged - Online (Linux).sh
-
-    to
-
-    "/home/myname/ERR/3 - Launch ELDEN RING Reforged - Online (Linux).sh"
-
-9) Repeat step 8) for the "Start In" path.
-
-10) Depending on your Linux distribution, change the shortcut's Launch Options to
-    call the .sh file through your console instead of running it directly.
-
-Example for Steam Deck and KDE:
-
-    konsole -e %command%
-
-Depending on your distro, you must replace "konsole" with your respective terminal app, such as "ptyxis".
-
 === OPTIONAL END ===
 
-11) Enjoy the game.
+8) Enjoy the game.
 
 ===================================================================
 UPDATING THE MOD
@@ -63,8 +42,8 @@ UPDATING THE MOD
 
 To update the mod, you simply overwrite the existing files with the new ones.
 
-To clarify, if you first installed the mod in the folder "ERRv1.0.0", and you wish to update to 1.1.0, you need to
-unpack the files inside the archive's "ERRv1.1.0" folder into your existing "ERRv1.0.0" one, and overwrite the files.
+To clarify, if you first installed the mod in the folder "ERRv2.0.0.0", and you wish to update to 2.1.0.0, you need to
+unpack the files inside the archive's "ERRv2.1.0.0" folder into your existing "ERRv2.0.0.0" one, and overwrite the files.
 If your OS isn't asking you whether it's OK to overwrite files, you probably didn't do it correctly.
 
 Doing it this way, you don't have to set up a new Non-Steam Game shortcut, and can continue using the
@@ -85,7 +64,21 @@ The App ID for ELDEN RING is "1245620", so that is the name of the "compatdata" 
 ELDEN RING save files.
 
 ===================================================================
+TROUBLESHOOTING
+===================================================================
+
+Linux gaming setups are incredibly complex and varied, so issues with installation often crop up.
+We do our best to make it smooth, but sometimes things fall through the cracks.
+
+Please seek support on the ERR Discord if you encounter problems.
+
+https://discord.gg/eldenringreforged
+
+Post in the #tech-support channel, and make sure to tag your thread with the "Linux" tag.
+
+===================================================================
 KNOWN ISSUES
 ===================================================================
 
 - The Steam Deck has a 16:10 resolution, which is not supported by ELDEN RING by default, leading to small issues with the UI.
+- It can be difficult to run ERR when it is installed on a separate drive from the game itself. The Discord has more information.
