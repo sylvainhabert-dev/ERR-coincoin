@@ -1,0 +1,2 @@
+menu\hi\00_Solo.tpfbdt.dcx
+menu\hi\00_Solo.tpfbhd.dcx

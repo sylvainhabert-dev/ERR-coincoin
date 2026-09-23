@@ -21,8 +21,8 @@ set -euo pipefail
 # CONFIGURATION
 # ------------------------------------------------------------
 
-ZIP1="E:/ERRv2.2.9.6-541-2-2-9-6-1780861369.zip"
-ZIP2="E:/Seamless Co-op v1.9.9-510-1-9-9-1776812412.zip"
+ZIP1="E:/ERRv2.3.5.1 541 2.3.5.1 2026-09-23T01-27Z RbQTOYu9W.zip"
+ZIP2="E:/Seamless Co-op v2.0.1 510 2.0.1 2026-09-02T23-30Z luvfLWq6V.zip"
 
 GIT_PATH="E:/ERR-coincoin"
 
@@ -184,6 +184,10 @@ echo "[>] Modification du fichier INI..."
 
 sed -i.bak \
     's/^cooppassword[[:space:]]*=[[:space:]]*$/cooppassword = coincoin/' \
+    "$INI"
+
+sed -i.bak \
+    's/^always_spectate_on_death[[:space:]]*=[[:space:]]*1$/always_spectate_on_death = 0/' \
     "$INI"
 
 rm -f "${INI}.bak"

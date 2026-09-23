@@ -1,3 +1,763 @@
+Version 2.3.5.1
+
+It is now possible to fast travel from inside of a dungeon while resting at a Site of Grace, even if the boss has not yet been defeated.
+
+Additions to Ash of War: Parry:
+- Thrusting Swords now have their own parry category, based on the Dagger but with one less active frame.
+- Added Parry to large (shoulder-carried) swords. Credits to Anyasol for the implementation and Raster for the animation.
+
+Fixed a critical issue where Linux users would crash upon connecting to the online server.
+
+Fixed Palm Blast doing more damage on Fist and Claw weapons than Hand-to-hand.
+
+Version 2.3.5.0
+
+Added a familiar boss encounter: the Gaping Jaw. This hungry, hungry dragon may be challenged in the Yelough Anix Tunnel in the Consecrated Snowfield, replacing Astel, Stars of Darkness.
+
+Added a new spell: Primal Lightning Storm. This recording of the Gaping Jaw's fulgurous outbursts may be obtained by defeating it.
+
+Moved the Meteorite of Astel spell to the remembrance of Astel, Naturalborn of the Void.
+
+Added Golden Larval Tears, which allow to perform the ritual of Fundamental Rebirth at Full Moon Queen Rennala in Raya Lucaria. Fundamental rebirth allow to change one's origin class. Golden Larval Tears can be crafted with the Mimic Cookbook [1] from the Secret Path to the Haligtree, and a single one can be found in Leyndell.
+
+Added "potato mode" options in the Reforged Settings: "Disable grass", "Disable shadows" and "Disable Erdtree". These settings may improve performance on some computers, at the cost of a severe graphical penalty.
+
+Increased movement distance of the attacks:
+- Katana guard counters
+- Twinblade 2H guard counter
+- Edge of Order 1H R1s
+
+Increased tracking of the Gracebound Canesword duck attacks.
+
+Increased Great Spear base damage by 1. Increased Edge of Order and Horned Warrior's Greatsword damage by 1.
+
+Decreased Night's Edge stamina cost by 5%.
+
+Decreased the speed boost enemies under Contorting Frenzy receive by 5%.
+
+Swapped the Greatbow range from 25 -> 50 and the Igon's Greatbow range from 50 -> 25. Decreased the Full Moon Crossbow range from 100 -> 75.
+
+Decreased Omenkiller melee damage by 10%.
+
+New characters will now start on Normal difficulty level. Also re-wrote some difficulty descriptions, again.
+
+Renamed the Prodigious Crown Pendant to the Prodigy Crown Pendant.
+
+Fixed an issue with the Coilheart not having the correct left-hand attacks when wielded in one hand.
+
+Fixed the Golden Arrow/Bolt effect not applying on skill use.
+
+Fixed Golden and Meteor Bolts not firing on horseback.
+
+Fixed an issue where the using the Repeating Crossbow's weapon skill from the left hand would instead load a crossbow bolt into the right hand weapon, leading to odd visuals with animated weapons like the Ringed Finger.
+
+Fixed Guiding Microcosm not applying its damage buff.
+
+Fixed the Flamelost Warsword skill not getting Stance type damage boosts.
+
+Fixed the Black Bow and Ansbach Bow having broken blocks that didn't block any damage.
+
+Fixed Royal Guardian Helicos being unhittable by other attacks during criticals.
+
+Fixed the Perfumer's Cookbook [1] being inaccessible when selecting the Idus Knight class.
+
+Fixed the Magma Tears in the Jagged Peak using the wrong lightning VFX.
+
+Adjusted visuals of Warding Microcosm to address performance concerns.
+
+Adjusted visuals of Fire Spritestone.
+
+Fixed the Preceptor's Big Hat (Altered) lacking floppiness, contributed by Angelpixy.
+
+Fixed a text issue where some Mystic Ash descriptions were truncated by a letter.
+
+Fixed an issue where the mod would not properly connect to the online server when stored in a path containing square brackets.
+
+Fixed various places where the player could become stuck falling in place, in addition to countless asset placement fixes and minor cosmetic tweaks throughout Siofra River, Limgrave, Liurnia, Farum Azula, Stormveil Castle, multiple catacombs, and many parts of the Realm of Shadow.
+
+Version 2.3.4.1
+
+Downgraded the me3 version to 0.12.1 to perhaps address some common memory/crash-on-launch issues.
+
+Reduced the spell penalty of the Fortune of the Veteran.
+
+Reduced the feedback damage of the Fortune of the Adherent.
+
+Fixed changing Torrent's regalia causing some sounds to disappear from certain items like the Gracebound Claws.
+
+Fixed restock mechanics not restocking the Sacred Bloody Flesh item.
+
+Fixed the Relaxed difficulty appearing when online.
+
+Fixed the dismounted Tree Sentinels not having particle effects when afflicted by the Sleep status.
+
+Fixed the Fated Milady having half damage.
+
+
+Version 2.3.4.0
+
+Updated the mod for ELDEN RING version 1.17.1.
+
+Updated the Reforged launcher:
+- The settings menu is now cleaner and easier to use.
+- Added an experimental "disable me3 mem patch" feature that might help certain users address launch issues.
+
+The dismounted Tree Sentinel, and Tree Sentinel Wyngrant, have received their long-missing cloaks. Also, made some miscellaneous improvements to their model.
+
+Buffs:
+- Twinblade: Increased attack speed of some of the slower types of heavy attacks.
+- Thunderbolt: Increased hitbox size.
+- Azur's Staff: Decreased FP consumption increase.
+- Lusat's Staff: Decreased FP consumption increase.
+- Finger Seal R2: Increased hitbox size.
+- Glyph of Suppression: Increased hitbox size and damage.
+- Greathood: Increased amount of stats given from 2 to 4.
+- Bone Greatarrow: Capacity from 50 -> 100
+- Greatarrow: Capacity from 30 -> 50
+- Golem Greatarrow: Capacity from 20 -> 30
+- Ballista Bolt: Capacity from 20 -> 30
+- Bone Ballista Bolt: Capacity from 30 -> 50
+
+Nerfs:
+- Light Greatswords: Increased R1 stamina costs.
+- Greatbows: Decreased maximum range.
+- Ballistas: Decreased maximum range.
+- Quality Affinity: Decreased damage slightly.
+- Barbarian Fortune: Decreased healing slightly.
+
+Moved the Spirit Ash healthbar and icon UI element down so that it doesn't cover any row three status icons.
+
+Removed the Special Difficulties menu due to it being entirely modes that were all outdated and generally untouched for years. The Relaxed mode was moved into the normal difficulties menu, and the Malenia medal requirements were adjusted.
+
+Added a Multiplayer setting at the Site of Grace that will allow you to turn off Phantom Glows in while in your own world while keeping them active when joining other worlds.
+
+The White Cipher Ring will no longer be on for Hosts invaded while they have 2 phantoms. This only matters if one of the phantoms dies.
+
+Potentially fixed a potential issue where enemy health could act weirdly in co-op if the level difference between the host and cooperator was too large.
+
+Fixed the Twisted Cord consumable not working.
+
+Fixed the Aged One Exultation and St. Trina Exultation restoring much, much more resources than intended.
+
+Fixed an issue where solo invasions wouldn't properly add to the invasion cooldown for when there are Furled Fingers in the world.
+
+Fixed the Inseperable Sword having higher softcaps than intended.
+
+Fixed the Prisoner class having a mismatched stat point between the menu and selected class.
+
+Fixed the mimic tear Wormface encounter in Mt. Gelmir sometimes not functioning properly.
+
+Fixed Fallen Hawk Solider ashes dealing much more frost buildup than intended.
+
+Fixed an issue where the new boss could not be riposted after parries.
+
+Fixed the Veteran Fortune and Wing Stance R1s not interacting properly.
+
+Fixed an issue where ballistae, crossbows and bows could perform an ineffectual melee attack by performing the No Skill Ash of War.
+
+Fixed a vanilla issue on the hitbox of Onze's 'judgement cut' attack where the hitbox of the attack appeared before he swung his sword even once.
+
+Fixed minor asset placement and lighting errors in Gravesite Plain and Subterranean Shunning Grounds.
+
+Version 2.3.3.2
+
+Fixed an issue where left-handed Deflects done with a weapon in the left hand and an over-the-shoulder weapon held in the right hand would not fully work.
+
+Characters brought in from vanilla that are over level 200 will now be automatically brought down to the level cap. This should also allow these characters to be used online.
+
+Version 2.3.3.1
+
+Added the ability for the Reforged taskbar icon to flash, or the Reforged window to jump to the foreground, when online matchmaking is successful. This includes being summoned as a cooperator/redeemer/invader, and being invaded. The taskbar flash is on by default, the window foreground can be configured in the launcher settings.
+
+Added a slight stat increase to Invaders if there are multiple Furled Fingers in the world.
+
+Fixed yet another bug where Oracle's Remedies could be sold for runes before NG+.
+
+Fixed the Ailment talisman not working properly for Sleep and Madness resistance.
+
+Fixed the Idus Sword having less status buildup than the Milady.
+
+Fixed Black-Key Bolts and Haligbone bolts missing some effects, like not getting Black-Key based damage boosts.
+
+Fixed a tracking issue on the Mark of the Beast spell.
+
+Fixed Torrent sometimes automatically inheriting the color of your body hue.
+
+Version 2.3.3.0
+
+Updated the two-handed light attack combo of the Putrescent Cleaver with some flavorful animations contributed by HatSkeleton.
+
+Increased flail hitbox size and increased flail R2 movement distance.
+
+Increased the speed and recovery speed of Gracebound Halberd R2s, but decreased the tracking on its running R2.
+
+Further increased the cast speed of the Causality's Wrath skill.
+
+Slightly increased base stamina regeneration and decreased all sources of stamina regeneration buffs.
+
+Decreased the Starlight Token cost of Palettes from 12 to 9.
+
+Redeemers will now gain 2 tokens instead of 1.
+
+Removed the ability for Cooperators, Invaders and Redeemers to use Blessing of Marikas/Starlight Shards/Lulling Branches. Decreased the buff duration stat of Invaders as well.
+
+Equipped Phantom Glows will now apply to Torrent.
+
+Fixed the Glob of Putrescence spell not appearing.
+
+Fixed Leontiel's Greatsword not having the poking rolling attack when two-handed. 
+
+Fixed a vanilla issue where the thrust attacks of the Muleta skill did not do pierce damage.
+
+Fixed the new infusable weapons not having proper holy damage on the Cursed affinities.
+
+Fixed Warcry R2s not interacting properly with Determination effects.
+
+Fixed an issue where weapon description changes for some SOTE weapons were not carried over from the 1.17 update.
+
+Fixed the new classes sometimes having the wrong default faces.
+
+Fixed the Divine Beast Dancing Lion taking much more critical damage than it should be.
+
+Fixed Asimi sometimes spawning at her original location.
+
+Hopefully fixed Libra being able to get stuck in the roots during its Discordant Beast phase.
+
+Fixed major performance drops that occurred when equipping the Snow Witch Skirt (Altered) or Spellblade's Pointed Hat (Altered) when raytracing was enabled.
+
+Various bug fixes and minor tweaks to decor in the new dungeon introduced in version 2.3.
+
+Fixed multiple spots where the player could get stuck falling in place until death.
+
+Various subtle cosmetic decor fixes and tweaks as reported by players.
+
+Fixed broken ground decals on the new boss.
+
+Fixed typos and updated some Codex lore.
+
+Version 2.3.2.2
+
+Fixed left-hand deflecting not showing visuals.
+
+Version 2.3.2.1
+
+Fixed a critical issue that disallowed casting.
+
+Fixed a spawnkilling enemy in the Minor Erdtree Catacombs.
+
+Fixed not being able to grease the new somber weapons.
+
+Version 2.3.2.0
+
+Updated the mod to support ELDEN RING version 1.17, the Tarnished Pack update, including all of its content.
+- The weapons and skills have been rebalanced for Reforged, as you would expect.
+- Just as in the vanilla game, the DLC is required to access its additions; this also applies to the Starlight Shop.
+- The Tarnished Pack horse armors, once unlocked, are accessed by interacting with Torrent in the Gilded Court, instead of at sites of grace.
+
+Fixed not being able to aim on Torrent if a bow is held one-handed but for real.
+
+Fixed an issue where Mystic Ashes cast with a two-handed left hand catalyst could not be charged.
+
+Fixed the Tree Sentinels and Death Rite Bird of the DLC not getting difficulty effects.
+
+Fixed Starscourge Radahn still disabling fast travel after being defeated upon resurrection.
+
+- Adjusted decals on Blades of Stone, Lord's Stomp, Gurranq's Beast Claw, and Unstable Fissure
+- Adjusted cast VFX of Twilight Mortar
+- Adjusted VFX of the charged version of Blades of Stone
+
+Version 2.3.1.2
+
+Fixed Brave charge loss on hit mechanics not working but again.
+
+Fixed the Adventure mode portal in the Bestial Sanctum sometimes being visible when not in Adventure mode.
+
+Decreased the amount of time that passes when dying from 3 hours to 2.
+
+Version 2.3.1.1
+
+Added a weapon buff to the new magic sword's skill.
+
+Reverted the 2.3.0.0 me3 version update, as it has caused instability issues for various users. This unfortunately may in turn return some previously fixed Linux issues.
+
+Removed the "change program name" feature and setting, as it breaks a bunch of stuff for not that much payoff. The icon stays and appears to have no ill effects, however.
+
+Fixed a crash in the tutorial.
+
+Fixed an input drop issue with guarding and crouching.
+
+Fixed not being able to aim on Torrent if a bow is held one-handed.
+
+Fixed a "blue" issue.
+
+Fixed Russian translations.
+
+Fixed a vanilla issue where uncharged backhand blade R2-2's could not be cancelled into light attacks.
+
+Fixed typos.
+
+Version 2.3.1.0
+
+Added a new sorcery: Glob of Putrescence. This putrescent sorcery is the same spell used by the mudgrub enemies, and fires a dripping lump of putrescence that leaves a trail of ghostflame in its path. It can be found right at the start of the Stone Coffin Fissure.
+
+Decreased the projectile spread of the new dagger skill to make it more usable in more enclosed environments.
+
+Decreased Greatbow stagger levels from hard knockdown to just heavy stagger due to them overshadowing Ballistas with how fast they fire, especially with the new quickdraw feature. In PvP they will still knock other players down for the ability to knock people off edges.
+
+Increased how far Ballista bolts knock back players in PvP to make it easier to knock people off edges.
+
+Fixed missing visual effects when using the "silvered lightning curse" on large enemies.
+
+Fixed Nox Nightmaiden enemy battle AI being really passive.
+
+Fixed the Heavenly Brew talisman providing bugged flask healing effects.
+
+Fixed an issue where the aim-down-sights reticle could appear while while spell casting.
+
+Fixed some minor performance issues in the Nokron area.
+
+Fixed the "Volcano Manor Apparition" having a bugged animation when being talked to.
+
+Fixed an issue where player latency could appear on random NPCs. This actually may also have solved some more insidious, hidden bugs with status scaling (go figure).
+
+Increased PvP poise damage of Repeating Thrust.
+
+Fixed an issue where poise not be disabled as long as intended when staggered.
+
+Adjusted decals on more player attacks and spells.
+
+Updated mod translations.
+
+Version 2.3.0.8
+
+Fixed an important issue that caused instances where critical attacks could deal more damage than intended, potentially also in PvP.
+
+Fixed the Marais Set healing more health than intended.
+
+Fixed critical attack i-frames on Roundtable Ambassadors.
+
+Fixed Cursed-Blood Pots dealing friendly fire in co-op.
+
+Fixed the long-standing vanilla issue where Golem's Magic Arrows did not have an AoE hitbox.
+
+Version 2.3.0.7
+
+Fixed and removed some lingering i-frames on a few enemy crit animations from 13 total enemies.
+
+Fixed desynced critical animation speeds against other players.
+
+Fixed some connection and stability issues.
+
+Fixed an issue where a new weapon could be powerstanced when it shouldn't.
+
+Fixed an issue where a new weapon had a buggy appearance with the Backhand Blade.
+
+Fixed an issue with the Fortune of the Brave where Northern Temper was not reduced when being hit. Also fixed an issue where it would've been reduced more than intended if it did work.
+
+Players in the Royal Colosseum are now titled "Combatant" regardless of role.
+
+Removed some superfluous icons from player HUD tags.
+
+Throttled the ping update in the player HUD tags again.
+
+Fixed an issue where player HUD tags appeared twice in the Royal Colosseum when using gold signs.
+
+Fixed an issue where the Redeemer noun was colored red in the network message when redeeming another player.
+
+Fixed an issue where the Host of Fingers player role tag was not correctly colored.
+
+Version 2.3.0.6
+
+Fixed a critical issue with not being able to cycle spells or items.
+
+Fixed some text issues.
+
+Updated the game credits with a missing voice actress.
+
+Some more secret items are no longer available in the Starlight Shop.
+
+Version 2.3.0.5
+
+Slightly decreased how fast the wall-based enemies retreat, and fixed an instance where one could not be locked-on to.
+
+Added anti-hardmode HP regen during the new bosses longer cutscene attacks.
+
+Enemy role tags are now no longer colored red.
+
+Multiplayer role tags will now be colored according to the player's role, no longer just invaders/duelists.
+
+Fixed an issue where ping colors would display incorrectly on duelists and invaders.
+
+Fixed an issue where multiplayer roles could erroneously be assigned to unrelated entities.
+
+Fixed more instances where getting stuck in walls was possible in the new area.
+
+Fixed a chalice in the new area not being active all the time if Additional Enemies was enabled.
+
+Fixed chakram items being throwable at 0 stamina.
+
+Fixed the new Remembrance item showing bugged text when being consumed for runes.
+
+Fixed multiple enemies with "Parry Resistance" missing sounds and particle effects on the resistance animations.
+
+Fixed missing hitboxes on the 1H RH stance of the dagger.
+
+Fixed the Gracebound Greatsword guard counters having basically no tracking.
+
+Fixed an issue where greatbow stance arts did not work properly when executed from one hand.
+
+Fixed typos.
+
+Nerfed Unending Dance in PvP.
+
+Version 2.3.0.4
+
+Fixed a broken visual when applying the inverted Lightning Silvered Curse with the new weapon.
+
+Fixed some issues that could result from resting at a Site of Grace while having an active chalice buff.
+
+Fixed a missing fog wall in the Nox Nightmaiden boss.
+
+Fixed the Thunderous Beast Charm not working.
+
+Slightly increased the damage of Dancing Wisps and False Star Burst.
+
+Added the three new weapons to the Starlight Token shop.
+
+Version 2.3.0.3
+
+Fixed an issue where the boss would have no voice lines if Mohg was currently dead.
+
+Fixed an issue where the latency display feature wasn't actually available to anybody.
+
+Fixed issues where you could get stuck in walls in the new area.
+
+Fixed an issue where player ghosts would flip out of control. This might also improve performance.
+
+Fixed a crash in the Reforged launcher.
+
+Changed the way that the settings menu is presented in the Reforged launcher, to sound less like you just made a mistake.
+
+Version 2.3.0.2
+
+Added launcher settings to toggle the window name and window icon changes, for those who experience issues with certain DLLs, third-party tools that hook into the game, or their sense of taste in aesthetics.
+
+Fixed an issue where arrow stance Ashes of War could not perform attacks.
+
+Fixed an issue where left-handed weapons could not be swung with a right-handed bow.
+
+Fixed Melina not advancing at the Forge of the Giants and other areas if the quest was done.
+
+Fixed the Fingerslayer Blade chest choosing to never be destined to open.
+
+Fixed some instances where dialogue in the new quest could be missed by loading too fast in Nokstella.
+
+Fixed the Silver Attunement spell not applying.
+
+Fixed some Mad Pumpkin Heads losing their head when stancebroken.
+
+Fixed some liquid being described as silvery when it was actually murky.
+
+Version 2.3.0.1
+
+Fixed an issue where the quest may not have initialized on existing saves.
+
+Fixed a sequence of events in the quest that could lead to some optional dialogue being skipped.
+
+Version 2.3.0.0
+
+# New Additions
+
+The Nox Monk and Nox Swordstress in Sellia, Town of Sorcery now guard an important treasure of the Eternal Cities. You may take stewardship of their charge, leading you through a questline that culminates at the end of the journey to the Erdtree.
+
+Progressing the quest line introduces a new endgame dungeon with:
+- Two new enemy types
+- Three new weapons
+- Two new spells
+- Two new talismans
+- Two new consumable item recipes
+- A new remembrance boss
+
+Added new crystal tears:
+- Ceruleanburst Crystal Tear: Slowly restores FP over time. Dropped by the Blighted Avatar.
+- Cerulean Bubbletear: Restores FP when close to depletion, a single time. Found in Greyoll's Dragonbarrow.
+- Viridian Bubbletear: Restores stamina when overexerting, a single time. Found in the Consecrated Snowfield.
+
+Added a unique roll/crouch attack to the Cleanrot Knight's Sword + Cleanrot Knight's Spear combo.
+
+Added a new enemy camp: Gate Town Graveyard, rewarding the Executioner's Greataxe and Bandit's Curved Sword.
+
+Added a tutorial popup and status icon for the overexertion mechanic.
+
+Added a number of armor Alterations for Malenia's set.
+
+Added an armor Alteration for the Finger Maiden Fillet.
+
+Added a more interesting boss intro to Rellana, Twin Moon Knight when encountering her for the first time.
+
+# Changes
+
+Players now visually deal 20% more damage in order for damage numbers to appear punchier. PvE enemy health and PvP modifiers were adjusted by 20% respectively to make this a visual change.
+
+It is now possible to continue dealing damage to enemies currently being dealt a critical hit to, at reduced effectiveness.
+
+The Frostbite status effect will no longer be removed by fire damage, other than the Magma effect.
+
+Changed the behavior of bows and ballistae while one-handed. Attack inputs for those weapon will now immediately two-hand the weapon and perform the attack in a single motion.
+
+Crossbows no longer unload their bolts when stowed, with the exception of the Spread Crossbow which specifically unloads on weapon change and slide swap.
+
+Storage capacity of arrows and bolts increased from 600 to 10000.
+
+Updated the Vulgar Militia Chain Sickle to current Reforged conventions of handedness:
+- Added a proper heavy attack with the axe (Broadsword moveset)
+- Moved the whip attack to the left-hand attack input
+- Added expanded left-hand attacks when one-handed in the left hand
+
+Updated weapons:
+- Renamed the Dawnglow Greatbolt, Fulghor's weapon, to "Edge of Order" and added the Sacred passive effect to it.
+- Removed the ability for Dwelling Arrows and Comet Bolts to headshot and fixed an issue where they did much more damage than intended on shortbows and barrage.
+- Whips no longer deal negative knockback, with the exception of the Vulgar Militia Chain Sickle.
+- Decreased the tap speed of certain dagger and fist heavy attacks.
+- Zamor Curved Sword: Increased movement distance of unique light attacks.
+- Mantis Blade: Decreased weight rate to 0.
+- Marika's Hammer: Added an Erdtree incantation boost in addition to the Fundamentalist incantation boost.
+- Longhaft Axe: Added the passive "rolling increases poise."
+- Ansbach's Longbow: Added Arcane scaling to make it more unique compared to the Black Bow and Gracebound Longbow.
+
+Updated spells:
+- Shard Spiral: Greatly increased hitbox size.
+- Rock Blaster: Will now cause enemies hit to have decreased defense.
+- Shatter Earth: Will now cause enemies hit to have decreased defense.
+- Shattering Crystal: Greatly increased hitbox size.
+- Crystal Release: Increased hit consistency.
+- Collapsing Stars: Changed slot cost from 1 to 2.
+- Gelmir's Fury: Increased hit consistency.
+- Explosive Ghostflame: Increased hitbox size of the lingering fire to improve a deadzone in the center of the spell.
+- Guiding Microcosm: Increased the radius of the buff.
+- Aspect of the Crucible Horn: Changed slot cost from 1 to 2.
+
+Updated skills:
+- Rebalanced all skill damage to fix some outliers, both too high and too low.
+- Spinning Strikes: Added a small amount of hyperarmor and decreased the recovery time when releasing L2.
+- Sacred Ring of Light: Added a low damage melee hitbox.
+- Ice Spear: Added a low damage melee hitbox.
+- Onze's Line of Stars: Increased speed and FP cost.
+- Moon-and-Fire Stance: Increased speed of the Moon part of the stance.
+- Regal Roar: Increased R2-2 tracking.
+- Death Flare: Increased explosion hitbox size.
+- Empyrean Piercer: Increased buff duration.
+
+Updated fortunes:
+- Sentinel: Now affects all spells, instead of just incantations.
+- Assassin: During a critical attack, the built-up poise damage buff will be converted into more critical attack power.
+- Spellsword: Will now restore a little bit of FP when consuming a max-level buff.
+- Apothecary: Added diminishing returns to the damage boost, but slightly increased the base damage boost of the Major version only.
+- Sorcerer: Added diminishing returns to the damage boost and slightly altered an interaction with the Fist of the Heavens spell.
+- Warmaster: Perfume Bottles now count for the "Auxiliary" category.
+
+Updated armor sets:
+- Chain Armor Set: Can now be altered into its opposite-gender aesthetic counterpart.
+- War Surgeon Set: Added a set passive where critical attacks and nearby blood loss increase HP restoration for a time.
+- Spellblade Set: Updated the passive to also slightly increase the magic damage of spells, though at a decreased rate compared to skills.
+
+Changes to the slide action:
+- Slide swaps (slide attacks while holding Interact, which swap handedness between 1H and 2H) are now extended to crossbow shots.
+- Bows and crossbows will now perform crouch shots out of slide (except for short bows, which continue using their roll attack).
+
+It is now possible to maintain chain-casting of spells such as Swift Glintstone Shard or Bestial Sling between catalysts held in different hands.
+
+Updated most HP and FP restoration effects. HP restoration will now have less % based restoration, making huge healthbars less effective with them. FP restoration effects will now have more % based restoration, making larger FP bars more useful.
+
+Decreased spell stamina costs on most spells by about 10%.
+
+Decreased the damage of successive light attacks by removing their progressive damage increase within a chain, with the exception of the final strike.
+
+Added a small restoration over time effect when drinking Crimson or Cerulean Flasks with the Crimson and Cerulean Seed talismans.
+
+Slightly decreased some move speed increasing effects, including equip load from max of 1.08x to 1.06x. The max speed decrease from equip load has also been lowered from 0.92x to 0.94x.
+
+The game interface will now respond more snappily by removing the input delay introduced in ELDEN RING 1.12.
+
+The game window will now be adorned with a Reforged icon and title after launch.
+
+The visual indicator for fully depleting your stamina now always shows, rather than only in multiplayer.
+
+Increased the duration of Malenia, Blade of Miquella's stance-break critical window.
+
+Increased the target priority of the Scadu Altus Ghostflame Dragon by 5%, previously it was +5%, now it is +10%.
+
+Hidden Mimic Tears that drop Larval Tears in the world are now highlighted by a slight sheen and grayscale effect.
+
+Sacred Tears at churches are now laid atop small altars.
+
+Smithing Master Hewg now stops exaggerating your death after you claim two Great Runes, and gained a new occasional interaction.
+
+Updated the icons for Rennala's Full Moon and Rellana's Twin Moons.
+
+Lowered the intensity of the visual effect of Fire's Deadly Sin's buff.
+
+Added decals to the impacts of various spells.
+
+# Online
+
+Player latency will now be displayed above their name. By default, only an icon will appear, and the full latency number can be added by toggling an optional launcher setting.
+
+The icons are as follows:
+- >200ms: 1 bar
+- >100ms: 2 bars
+- >50ms: 3 bars (green)
+- 0-50ms: 3 bars (blue)
+- Disconnected: Red unplugged socket icon
+
+The Arcane attribute and status buildup-increasing gear will now properly affect PvP status buildup, contributing 40% of their normal value (along with the usual diminishing returns for gear and buffs).
+
+The Fortune of the Dynasts now receives a reduced Sanguine Pool bonus while lingering near other players that recently suffered from blood loss. It expires faster out of range, has a shorter range and builds up the health restoration more slowly than a full pool.
+
+Multiplayer passwords will now reset after exiting to main menu, rather than on every loading screen.
+
+Increased overall PvP stamina damage by 10% and decreased poise damage by 5%.
+
+Increased the stamina damage in PvP for:
+- Stamp (Heavy input) skill
+- Square Off (Light input) skill
+
+Updated the disabled Summoning Pools list. All of these summoning pools are	disabled due to having multiplayer-specific issues.
+- Debate Parlor
+- Gelmir Hero's Grave
+- Ancestral Woods
+- Aqueduct-Facing Cliffs
+- Great Waterfall Basin
+
+Fixed an issue where the Gracebound Mace was not droppable to other players.
+
+Fixed the Mohgwyn Palace summoning pools still not working.
+
+Fixed an issue where the Taunter's Tongue would not always correctly reset the multiplayer cooldown.
+
+# Fixes
+
+Linux improvements (includes the previous hotfix):
+- Fixed a major blocking issue where the game would immediately shut down along with the launcher.
+- Steam Gaming Mode now launches the .sh file normally without needing the `konsole -e` launch options.
+  - As a result, installation steps have been significantly shortened.
+- Fixed an issue where me3 would dump logs into the Reforged launcher window.
+- Added better instructions for Steam Gaming Mode users to switch to the active "ELDEN RING" window, out of the launcher console window.
+- Fixed a launcher issue where some installations couldn't access the online server, by changing relative paths in the me3 profile to absolute ones.
+
+Changes to Reforged Launcher:
+- Reduced startup time and RAM consumption by no longer performing a sanity check on the Solo archive files (File containing HD item icons and tutorial images, populated by Gideon).
+- Added support for being able to delete files from prior patches which became obsolete, to avoid some patching issues that occasionally occurred.
+- Better clarification of administrator mode issues.
+- Now checks for the presence of all expected ELDEN RING game folder files, not just a few.
+- Will now throw a hard error on Seamless Coop issues like missing INI file, instead of a warning.
+- Hopefully better logging behavior.
+- Fixed an issue where even compatible regulation.bin files could not be loaded from the addon folder.
+
+Updated the me3 version to hopefully address some assorted issues (mostly Linux ones).
+
+Replaced an old fix for a vanilla issue of enemies failing to bounce off of a two-handed weapon when only the "effective strength" requirements for two-handing were met, with a more robust one that doesn't depend on setting your strength to 99 during Perfect Deflects.
+
+Fixed an issue with Malenia, Goddess of Rot where she would inconsistently create rot butterflies even if interrupted before her sword hit the floor.
+
+Fixed an issue where the status buildup value on weapon attributes would not update with your Arcane stat or active effects.
+
+Fixed an issue where Rune Arcs would be unusable in various situations where multiplayer would be disabled, such as Seamless Coop or specific areas.
+
+Fixed an issue where ballistae would instantly break out of the "holding a bolt" animation when attempting to move.
+
+Fixed being unable to cancel bow attacks with non-bow weapon skills.
+
+Fixed a visual vanilla issue where Rabbath's Cannon did not use its unique firing VFX in the left hand, or when shooting from a jump.
+
+Fixed an issue where aiming arrows was unusually unreliable on horseback.
+
+Fixed an issue where Piquebone Arrows worked incorrectly when used with short bows.
+
+Fixed a long-standing issue with left-handed whips where they would exhibit strange behaviors and hitboxes. Thanks to Shiki for the fixed animations.
+
+Fixed a visual issue with many new left-handed attacks where the right-hand weapon would not be correctly positioned.
+
+Fixed an issue where performing a fall attack directly after a left-handed attack would still use the left hand weapon's attributes for the attack.
+
+Fixed an issue where left-handed weapon catalysts could not cast spells when canceling out of an item animation.
+
+Fixed an issue where the Cleanrot weapon combo's special guard counter would not apply with Prefer Left-Hand Guard Counter enabled.
+
+Fixed an issue where your left unarmed fist could be greased. Hygiene is important!
+
+Fixed an issue with casting certain spells like Blood Star Slicer on horseback.
+
+Fixed various interactions between slides and actions which can be performed out of crouching, such as bow and crossbow shots.
+
+Fixed an issue where the Lordsworn Knight armor set bonuses would not affect ranged weapons.
+
+Fixed an issue where the Fated Bandit's Curved Sword from cemeteries would have an unusable Ash of War.
+
+Fixed a visual issue with Waifish posture and shoulder-held weapons.
+
+Fixed certain upgrade levels of the Rotten Crystal Staff causing strange effects when equipped.
+
+Fixed the Rancor Slash skill buffs not being altered by buff duration effects.
+
+Fixed the Tibia's Summons unique skill not having proper damage scaling with stats.
+
+Fixed some lingering issues where enemies did not properly become untargetable after dying.
+
+Fixed the Sentinel fortune not providing bonus poise.
+
+Fixed an issue where some healing spells could leave the player at low stamina longer than intended.
+
+Fixed Frenzyspore Mist madness not dealing damage.
+
+Fixed War Cry/Roar skill damage boosts not applying to items.
+
+Fixed an issue where the Immortal Coil could not equip thrusting sword Ashes of War.
+
+Fixed animation cancelling issues with the Whirl O Flame spell.
+
+Fixed a small issue with a Site of Grace in Volcano Manor being offset from its physical position.
+
+Fixed an issue where some gear effects did not apply on NPCs like the Mimic Tear, such as unique torch effects.
+
+Fixed Lobo in the Latenna and Lobo Spirit Ash and the Frenzied Nomad spirit ash dealing significantly more status buildup than intended.
+
+Fixed a vanilla issue where Horned Warriors would recover from front-facing critical attacks way faster than they should.
+
+Fixed the Fortune of the Brave not losing charge when staggering.
+
+Fixed issues with the volume of the Ancient Tracer spell.
+
+Fixed Hefty Magic Pots dealing double damage.
+
+Fixed "successive attack" talismans and the crystal tear providing much more damage than intended.
+
+Fixed an issue where you could unintentionally sell your Oracle's Remedies in NG+0.
+
+Fixed an issue where leveling up to rune level 200 could delete excess runes.
+
+Fixed minor issues with the weapon stat scaling indicators containing a + covering slightly too wide of a number range. This may lead to various weapons now displaying a different scaling than before, despite not changing in practice.
+
+Fixed an issue where Deep-Purple Lilies could be harvested multiple times.
+
+Fixed an issue where Patches would appear as the player character during a cutscene in Mt. Gelmir.
+
+Fixed a visual issues where barefoot leg armors would not lead to correct footprints on the ground.
+
+Fixed a crash issue with slide attacks on the Japanese client.
+
+Fixed an issue where certain DLC item icons were misaligned.
+
+Fixed the VFX of Rotten Armament using the wrong colors.
+
+Fixed the D NPC summon not being able to damage the False Sky boss.
+
+Fixed an issue where the Nightmare Boss Rush could be beaten after it was beaten.
+
+Fixed hundreds of asset placement and lighting errors, seams or gaps in the world, places where the player could become stuck, and more, across nearly every region.
+
+Made countless subtle cosmetic tweaks across the world such as improving decor within Forts, decorating a shack in the Hermit Village, adjusting shrubs in many overworld locations to look more natural and aesthetically pleasing, adding breakable Deathroot growths outside of bosses that inflict deathblight as a clear indicator, and more.
+
 Version 2.2.9.6
 
 Fixed an issue where many effects depending on invulnerability frames being either present or absent would not function properly.

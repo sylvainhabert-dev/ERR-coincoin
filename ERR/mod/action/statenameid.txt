@@ -1,6 +1,6 @@
 #BOM�t��UTF8�ŕۑ����ꂽ?�E��Ɉ�?s�ڂ���?͕s�\�ɂȂ�DLProperties�̕s��?��ɔ����ăR�E���g�A�E�g
 
-Num  = 2313
+Num  = 2318
 1    = "AddBlendSpeak"
 2    = "AddDamageDefault"
 3    = "AddDamageDefaultGuard"
@@ -2314,4 +2314,9 @@ Num  = 2313
 2311 = "AttackLeftHeavySpecial2End"
 2312 = "ThrowBackStabLeft"
 2313 = "Slide"
+2314 = "AttackRightLightStepAlt"
+2315 = "AttackRightLight1Alt"
+2316 = "AttackRightLight2Alt"
+2317 = "AttackRightLight3Alt"
+2318 = "DrawStanceRightAttackHeavyCancel"
               

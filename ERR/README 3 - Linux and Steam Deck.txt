@@ -17,24 +17,26 @@ After this initial setup, you will be able to easily run the mod.
 
 1) Install ELDEN RING on Steam.
 
-2) Run the vanilla ELDEN RING game at least once.
+2) YOUR MILEAGE MAY VARY: In ELDEN RING's right-click properties, change the Proton version to "Proton Experimental".
 
-3) Unpack ELDEN RING Reforged in a location of your choosing, to which you have adequate permissions.
+3) Run the vanilla ELDEN RING game at least once.
 
-4) Grant executable access to the two "Launch ELDEN RING Reforged" .sh shell script files in the main folder.
+4) Unpack ELDEN RING Reforged in a location of your choosing, to which you have adequate permissions.
 
-5) Right-click and "Run in Terminal" (or whatever equivalent of your desktop environment) your desired shell script file.
+5) Grant executable access to the two "Launch ELDEN RING Reforged" .sh shell script files in the main folder.
+
+6) Right-click and "Run in Terminal" (or whatever equivalent of your desktop environment) your desired shell script file.
 
 === OPTIONAL: IF YOU WISH TO RUN THE MOD IN STEAM DECK "GAMING MODE" OR STEAM "BIG SCREEN" ===
 
 6) Launch the mod via point 5) at least once, in Desktop Mode.
 
-7) Add your preferred launcher .sh script as a Non-Steam Game Shortcut in Steam.
+8) Add your preferred launcher .sh script as a Non-Steam Game Shortcut in Steam.
    Do NOT specify any Proton compatibility tools for this shortcut.
 
 === OPTIONAL END ===
 
-8) Enjoy the game.
+9) Enjoy the game.
 
 ===================================================================
 UPDATING THE MOD
