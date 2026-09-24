@@ -28,7 +28,6 @@ jobs:
             -x "mod/*"
 
           zip -r ../artifacts/ERR2.zip \
-            mod/.output \
             mod/action \
             mod/asset \
             mod/chr \
@@ -46,6 +45,7 @@ jobs:
             mod/script \
             mod/sd \
             mod/sfx \
+            mod/shader \
             mod/regulation.bin
 
       # Génération version
