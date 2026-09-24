@@ -74,20 +74,24 @@ Contributions
 - H A L C Y O N for the idea of using WetAspectParam for an armor dye system.
 - Lord Exelot for the 1.12 community HKS update.
 - rossano96 for help with color-matching Limgrave LOD textures.
+- Angelpixy for help with the altered Preceptor's Big Hat and Spellblade's Pointed Hat.
 - Igor for the Putrescent Bonemass's jump animation.
 - Shiki for the plunge attack critical animation for the Putrescent Bonemass and enemy grab animations for the Royal Guardian.
 - BigGreenGayDad, DOTS, Ezaol, Loki, Mohl, Render, rooksby, Spiswel, Teacyn, Throngler for footage for the 2.0 trailer.
 - antro97, Avionette Gaming, Ballsy, BigGreenGayDad, Combine, DOTS, erin, Ezaol, Fly, Gacsam, Loki, Mohl, Noxbun,
   remu, Render, rooksby, Ser Aaron, Spiswel, Teacyn, Throngler, Zath for testing the 2.0 release.
 - Zenithbemusement for the fix to the Staff of the Great Beyond spell emitter point.
-- Raster for fixing the collision of the colosseum interiors.
+- Raster for fixing the collision of the colosseum interiors, and making Adel's sounds work.
 - WrenRecon for various equipment pieces such as the Operatic Headdress.
+- weirdsimon for audio processing of certain voice lines.
+- HatSkeleton for the Putrescent Cleaver animations.
+- Raster and Anyasol for the large sword parry.
 
 ===================================================================
 Translations
 ===================================================================
 - Dark Listener, TruthanTV: German translation.
-- Буханка_Глеба, Isolated Mind, Raiden: Russian translation.
+- Буханка_Глеба, Isolated Mind, Raiden, Miamus, silk_911, Bady: Russian translation.
 - From Software Minor Gallery, 도바킨, HWASAL: Korean translation.
 - wings, Luwae, Agito L'agité, cust, Firefloc, Freenix, Le Gourdiflet, Neanesis, Uncle Psy, Spiswel, Ravioli: French translation.
 - niscolas, Michelle Castro, Sobolewski, Alzh: Portuguese translation.

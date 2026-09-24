@@ -1,6 +1,6 @@
 #BOM�t��UTF8�ŕۑ����ꂽ?�E��Ɉ�?s�ڂ���?͕s�\�ɂȂ�DLProperties�̕s��?��ɔ����ăR�E���g�A�E�g
 
-Num  = 2782
+Num  = 2787
 1    = "a000_000052.hkt_WC"
 2    = "a000_000515.hkt_WC"
 3    = "AddDamageGuardStartBack_to_AddDamageDefaultGuard"
@@ -2782,4 +2782,9 @@ Num  = 2782
 2779 = "W_Transition_AttackLeftHeavySpecial1SubStart_to_AttackLeftHeavySpecial1Start"
 2780 = "W_ThrowBackStabLeft"
 2781 = "W_Slide"
+2782 = "W_AttackRightLightStepAlt"
+2783 = "W_AttackRightLight1Alt"
+2784 = "W_AttackRightLight2Alt"
+2785 = "W_AttackRightLight3Alt"
+2786 = "W_DrawStanceRightAttackHeavyCancel"
     
