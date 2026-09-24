@@ -16,6 +16,9 @@ jobs:
       # Checkout
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          autocrlf: false
+
 
       # Création des ZIPs
       - name: Create split ZIP archives
